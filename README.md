@@ -15,3 +15,6 @@
   * Tag barcode: this lets tag in bam files. The cell barcode tag is attached to an optional field in the sam file with the non-barcode read XC. The molecular barcode is attached to field XM. It assumes by default that read 1 contains the barcode sequence, and that cell barcode is base 1-12, and the molecular barcode is 13-20. At the end of the tagging, the first read is discarded. The default 
   
   
+# Auxilary scripts
+* compare_counts.R
+* count_gene_exon.py
